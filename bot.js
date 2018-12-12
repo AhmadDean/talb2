@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By Suhaib #4272 .`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(`.`,'https://www.twitch.tv/v5bz');
   console.log('---------------');
   console.log('Desert Bot Is Online')
   console.log('---------------')
@@ -79,7 +79,7 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("** مبرمج البوت :wrench: **","**@!      i1sυнαɪв ☕ᴶᴮᴿ#4272  , @! ϻ ~ ✘_♥ ツ#2275  **")
+      .addField("** مبرمج البوت :wrench: **","**@Ahmeddean**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -266,7 +266,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` ON ${client.guilds.size} Servers - Prefix *help`,"http://twitch.tv/S-F")
+client.user.setGame(`Prefix *help`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 client.on("guildCreate", guild => {
