@@ -339,4 +339,4 @@ client.on('message', message => { if (message.author.x5bz) return; if (!message.
 
 
 
-client.login("NTIyNTAzOTM2ODgwNTQxNzIw.DvMBzQ.Ca4IElrjGjhwJ0DNQmNCMQju9i4");
+client.login("NTIyNTAzOTM2ODgwNTQxNzIw.DvMClQ.1aVuy36E280c_bx9bz2NWarOyfw");
